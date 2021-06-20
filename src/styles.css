@@ -10,8 +10,8 @@ html, body {
 }
 
 h1 {
-    /* z-index: 1; */
     color: white;
+    margin: 0;
 }
 
 canvas {

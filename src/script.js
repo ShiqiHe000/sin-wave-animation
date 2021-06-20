@@ -46,6 +46,12 @@ backgroundColorFolder.add(bgColor, "g", 0, 255);
 backgroundColorFolder.add(bgColor, "b", 0, 255);
 backgroundColorFolder.add(bgColor, "alpha", 0, 1);
 
+window.addEventListener('resize', () => {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+})
+
+
 let increment = wave.frequency;
 function animate() {
     requestAnimationFrame(animate);
